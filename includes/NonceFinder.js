@@ -7,7 +7,7 @@ export default class NonceFinder {
         this._tryingNonces = [];
         this._initialNonce = 0;
         this._startedSearchAt = null;
-        this._workersCount = 8;
+        this._workersCount = 400;
 
         this._askedToStop = false;
 
